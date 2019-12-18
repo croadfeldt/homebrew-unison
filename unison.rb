@@ -18,7 +18,7 @@ class Unison < Formula
   # Version bump to 2.51.3
   patch do
     url "https://github.com/bcpierce00/unison/commit/26a29f7.diff?full_index=1"
-    sha256 "4b5dd5af7354cce25b261d0e7106df76b2d0386898f78e0ab952580907e9c757"
+    sha256 "a7f2da810599c1990ba8c7fb70c2b7723aae8543170707c45f4ac7a6ee0f4645"
   end
 
   def install
