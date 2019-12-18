@@ -8,12 +8,6 @@ class Unison < Formula
 
   depends_on "ocaml" => :build
 
-  # Version bump to 2.51.3
-  patch do
-    url "https://github.com/bcpierce00/unison/commit/26a29f7.diff?full_index=1"
-    sha256 "a7f2da810599c1990ba8c7fb70c2b7723aae8543170707c45f4ac7a6ee0f4645"
-  end
-
   def install
     ENV.deparallelize
     ENV.delete "CFLAGS" # ocamlopt reads CFLAGS but doesn't understand common options
