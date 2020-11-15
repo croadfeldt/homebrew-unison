@@ -6,7 +6,7 @@ class Unison < Formula
   sha256 "b3f5e35c59fcb72f4c79bad999ed9c3ff4339968ca6b40e14434eab96e7a7c57"
   head "https://github.com/bcpierce00/unison.git", :branch => "master"
 
-  depends_on "ocaml" => :build
+  depends_on "croadfeldt/ocaml/ocaml" => :build
 
   def install
     ENV.deparallelize
