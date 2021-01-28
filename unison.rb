@@ -1,6 +1,6 @@
 class Unison < Formula
   desc "File synchronization tool for OSX"
-  version "2.51.5-git.5f6a085d"
+  version "2.51.4-git.5f6a085d"
   homepage "https://www.cis.upenn.edu/~bcpierce/unison/"
   url "https://github.com/bcpierce00/unison/archive/5f6a085d9193ee1343969cd03362d797f3cc27ab.tar.gz"
   sha256 "40674561ec21501ad093cb174cb13c72e71fa6e7f5707961c4c07597304dd3a3"
