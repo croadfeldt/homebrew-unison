@@ -1,9 +1,9 @@
 class Unison < Formula
   desc "File synchronization tool for OSX"
-  version "2.51.5-git.3c7f38d"
+  version "2.52.0-git.3c314bf"
   homepage "https://www.cis.upenn.edu/~bcpierce/unison/"
-  url "https://github.com/bcpierce00/unison/archive/3c7f38da6985839fc2639825edba8c6421f17e61.tar.gz"
-  sha256 "13c70b28982fa42f56b1f882221b53d06885e36e5c2967906d0d00a6dd1c4dd5"
+  url "https://github.com/bcpierce00/unison/archive/3c314bfe7384babd0ffb99dc4b38191a13f9a6b5.tar.gz"
+  sha256 "bae6b9c9a8e196fbcd4f7d45403d0da71a5d1ca0cff266d5c79f89045c54bb47"
   head "https://github.com/bcpierce00/unison.git", :branch => "master"
 
   depends_on "croadfeldt/ocaml/ocaml" => :build
